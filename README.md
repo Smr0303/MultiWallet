@@ -1,35 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart Contract Wallet (SCW) Project
+![smartmockups_lxgix0po](https://github.com/AYOO117/AccountAbstraction/assets/97744998/b8c4eb11-7648-4c6c-b493-50f447b7bdfb)
 
-## Getting Started
+website link-https://account-abstraction-xi.vercel.app/
 
-First, run the development server:
+Welcome to the Smart Contract Wallet (SCW) project! This project is designed to implement account abstraction through a multi-signature wallet smart contract.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table Of Contents
+- Overview
+- Creating a New Wallet
+- Features
+- Technologies Used
+- Setup and Installation
+- License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
+The Smart Contract Wallet (SCW) project leverages account abstraction to create a multi-signature wallet smart contract. This enables users to securely manage their assets with multiple signers required to authorize transactions. The project is built using Ethereum smart contracts and interacts with a web frontend using Next.js.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Creating a New Wallet
+Connect your Ethereum wallet (MetaMask recommended).
+Navigate to the "Create New Wallet" page.
+Add signers by entering their Ethereum addresses.
+Submit the form to create a new wallet. The wallet address will be displayed upon successful creation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Interacting with the Wallet
+View your wallets on the homepage.
+Select a wallet to view details and manage assets.
+Propose and approve transactions with multiple signers.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Features
+Account Abstraction: Implemented using the ERC-4337 standard.
+Multi-Signature Wallet: Requires multiple signers to authorize transactions.
+Smart Contract Interaction: Utilizes ethers.js for seamless smart contract interaction.
+User-Friendly Interface: Built with Next.js and RainbowKit for a modern web experience.
+Secure and Scalable: Ensures security and scalability for managing assets on the Ethereum blockchain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
+Smart Contracts: Solidity, OpenZeppelin
+Web3 Library: ethers.js
+Framework: Next.js
+Styling: TailwindCSS
+Database: Prisma
+API Integration: userop, wagmi, RainbowKit
+Ethereum Testnet: Sepolia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup and Installation
+- git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
+- cd REPOSITORY_NAME
+- npm install
+### create .env file and add the variables:
+- NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=YOUR_PROJECT_ID
+- BUNDLER_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY
+- WALLET_FACTORY_ADDRESS=YOUR_WALLET_FACTORY_CONTRACT_ADDRESS
+### Run the development server:
+- npm run dev
+- Open http://localhost:3000 in your browser
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# MultiWallet
+### License
+This project is licensed under the GPL-3.0
