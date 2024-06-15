@@ -1,7 +1,7 @@
 # Smart Contract Wallet (SCW) Project
 ![smartmockups_lxgix0po](https://github.com/AYOO117/AccountAbstraction/assets/97744998/b8c4eb11-7648-4c6c-b493-50f447b7bdfb)
 
-website link-multi-wallet-beta.vercel.app/
+website link-[multi-wallet-beta.vercel.app/](https://multi-wallet-beta.vercel.app/)
 
 Welcome to the Smart Contract Wallet (SCW) project! This project is designed to implement account abstraction through a multi-signature wallet smart contract.
 
