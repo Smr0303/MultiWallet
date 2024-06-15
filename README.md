@@ -1,5 +1,6 @@
 # Smart Contract Wallet (SCW) Project
-![smartmockups_lxgix0po](https://github.com/AYOO117/AccountAbstraction/assets/97744998/b8c4eb11-7648-4c6c-b493-50f447b7bdfb)
+![Alt text](URL_to_your_image)
+
 
 website link-[multi-wallet-beta.vercel.app/](https://multi-wallet-beta.vercel.app/)
 
