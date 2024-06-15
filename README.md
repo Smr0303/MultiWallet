@@ -46,8 +46,8 @@ API Integration: userop, wagmi, RainbowKit
 Ethereum Testnet: Sepolia
 
 ## Setup and Installation
-- git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-- cd REPOSITORY_NAME
+- git clone [https://github.com/Smr0303/MultiWallet.git](https://github.com/Smr0303/MultiWallet.git)
+- cd MultiWallet
 - npm install
 ### create .env file and add the variables:
 - NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=YOUR_PROJECT_ID
